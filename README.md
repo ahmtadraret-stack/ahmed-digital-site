@@ -5,8 +5,8 @@ Un site vitrine responsive pour présenter les services de création de sites we
 ## Avant la publication
 
 1. Ouvrir `index.html`.
-2. Chercher `const WHATSAPP_NUMBER = "2126XXXXXXXX";`.
-3. Remplacer `2126XXXXXXXX` par votre numéro WhatsApp au format international, sans `+`, sans espaces et sans tirets. Pour un numéro marocain, utilisez `212` suivi du numéro sans le premier `0`.
+2. Chercher `const WHATSAPP_NUMBER = "212648534788";`.
+3. Remplacer `212648534788` par votre numéro WhatsApp au format international, sans `+`, sans espaces et sans tirets. Pour un numéro marocain, utilisez `212` suivi du numéro sans le premier `0`.
 4. Vérifier l'adresse e-mail dans le bouton e-mail et la modifier si nécessaire.
 5. Ouvrir `index.html` dans un navigateur et tester les sections et boutons.
 
