@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ahmed Digital crée des sites web modernes, rapides et adaptés aux mobiles pour les commerces, restaurants et petites entreprises au Maroc.">
+  <meta name="theme-color" content="#101711">
+  <title>Ahmed Digital — Votre présence en ligne, simplement</title>
+  <style>
+    :root{--bg:#f5f5ef;--ink:#172019;--muted:#687168;--green:#b9f36b;--green-dark:#244a28;--line:#dfe3d8;--card:#fff;--dark:#101711;--radius:24px;--shadow:0 18px 55px rgba(24,39,25,.09)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6} a{color:inherit;text-decoration:none} button{font:inherit} .wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:21px 0;gap:20px}.brand{font-weight:900;letter-spacing:-.7px;font-size:1.2rem;display:flex;align-items:center;gap:10px}.brandmark{width:36px;height:36px;display:grid;place-items:center;border-radius:12px;background:var(--green);font-weight:950;color:var(--dark)}.navlinks{display:flex;align-items:center;gap:26px;color:#555f55;font-size:.92rem}.navlinks a:hover{color:var(--green-dark)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;padding:13px 19px;background:var(--green);color:#122014;font-weight:800;cursor:pointer;transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px);filter:brightness(.97)}.btn-dark{background:var(--dark);color:white}.btn-outline{background:transparent;border:1px solid #cfd5c9}.btn-small{padding:10px 14px;font-size:.9rem}
+    .hero{position:relative;overflow:hidden;background:var(--dark);color:#fff;border-radius:32px;padding:clamp(30px,6vw,74px);display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center;min-height:510px}.hero:before{content:"";position:absolute;right:-120px;top:-180px;width:480px;height:480px;border-radius:50%;border:1px solid rgba(185,243,107,.16);box-shadow:0 0 0 45px rgba(185,243,107,.035),0 0 0 90px rgba(185,243,107,.025)}.eyebrow{display:inline-flex;gap:8px;align-items:center;font-size:.78rem;text-transform:uppercase;letter-spacing:1.5px;font-weight:800;color:var(--green)}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 5px rgba(185,243,107,.13)}h1{font-size:clamp(2.8rem,6vw,5.15rem);line-height:.99;letter-spacing:-.065em;margin:22px 0}.hero h1 span{color:var(--green)}.hero p{color:#c2cbc0;font-size:1.07rem;max-width:520px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.hero .btn-outline{border-color:#49554a;color:white}.hero-visual{position:relative;z-index:1;min-height:310px;display:grid;place-items:center}.browser{width:min(100%,390px);background:#fafbf6;color:var(--ink);border-radius:20px;padding:15px;box-shadow:0 28px 80px rgba(0,0,0,.28);transform:rotate(2deg)}.browserbar{display:flex;gap:5px;padding-bottom:13px;border-bottom:1px solid #e4e8df}.browserbar i{width:7px;height:7px;border-radius:50%;background:#d0d6cb}.mockhero{margin-top:14px;border-radius:13px;background:#eaf2e1;padding:20px;min-height:145px;position:relative;overflow:hidden}.mocklabel{font-size:.68rem;font-weight:900;letter-spacing:1.2px;color:#557450}.mocktitle{font-size:1.72rem;line-height:1.05;font-weight:900;letter-spacing:-1px;margin-top:13px;max-width:210px}.mockcircle{position:absolute;right:-10px;bottom:-18px;width:105px;height:105px;border-radius:50%;background:var(--green)}.mockrows{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.mockcard{background:#fff;border:1px solid #ebeee8;border-radius:12px;padding:13px}.mockcard b{display:block;font-size:.81rem}.mockcard span{font-size:.7rem;color:#70786c}.mockfooter{margin-top:12px;background:var(--dark);color:#fff;padding:10px 12px;border-radius:10px;font-size:.73rem;display:flex;justify-content:space-between;align-items:center}.mockfooter strong{color:var(--green)}.float-note{position:absolute;left:-6px;bottom:6px;background:var(--green);color:#172019;padding:13px 16px;border-radius:14px;font-size:.8rem;font-weight:850;box-shadow:var(--shadow);transform:rotate(-5deg)}
+    .trust{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:24px 4px 12px;color:#626b60;font-size:.9rem}.trust strong{color:var(--ink)}.trustitem{display:flex;align-items:center;gap:9px}.check{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#e5f4d5;color:#2f6329;font-weight:900}
+    section{padding:82px 0}.section-head{max-width:640px;margin-bottom:34px}.kicker{font-size:.77rem;text-transform:uppercase;font-weight:900;letter-spacing:1.7px;color:#588242}.section-head h2{font-size:clamp(2rem,4vw,3.3rem);letter-spacing:-.05em;line-height:1.06;margin:12px 0}.section-head p{color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.service{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:25px;min-height:230px;box-shadow:0 4px 18px rgba(20,30,20,.025)}.serviceicon{width:48px;height:48px;border-radius:15px;background:#eaf5df;display:grid;place-items:center;font-size:1.3rem}.service h3{margin:19px 0 7px;font-size:1.12rem}.service p{color:var(--muted);margin:0;font-size:.95rem}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.step{border-top:1px solid var(--line);padding:21px 4px}.stepno{color:#6d9948;font-weight:900;font-size:.8rem;letter-spacing:1px}.step h3{margin:9px 0}.step p{color:var(--muted);font-size:.94rem;margin:0}
+    .pricing{background:#e9eddf;border-radius:30px;padding:clamp(25px,5vw,50px)}.pricegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.pricecard{border:1px solid #d3d9ca;border-radius:22px;padding:23px;background:rgba(255,255,255,.68);display:flex;flex-direction:column}.pricecard.featured{background:var(--dark);color:#fff;border-color:var(--dark);box-shadow:var(--shadow)}.pricecard .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:1px;font-weight:900;color:#648f43}.pricecard.featured .tag{color:var(--green)}.pricecard h3{margin:10px 0 3px}.price{font-size:2.1rem;font-weight:950;letter-spacing:-1px;margin:6px 0}.price small{font-size:.8rem;font-weight:600;letter-spacing:0;color:#778071}.pricecard p{font-size:.9rem;color:var(--muted);min-height:45px}.pricecard.featured p{color:#c2cbc0}.pricecard ul{list-style:none;padding:0;margin:12px 0 22px;display:grid;gap:9px;font-size:.88rem}.pricecard li:before{content:"✓";color:#689745;font-weight:900;margin-right:8px}.pricecard.featured li:before{color:var(--green)}.pricecard .btn{margin-top:auto}.fineprint{color:#65705f;font-size:.8rem;margin:18px 2px 0}
+    .cta{background:var(--dark);color:#fff;border-radius:30px;padding:clamp(30px,6vw,65px);display:flex;align-items:center;justify-content:space-between;gap:28px}.cta h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.06;letter-spacing:-.05em;margin:13px 0}.cta p{color:#c2cbc0;max-width:590px;margin-bottom:0}.cta-actions{flex-shrink:0;display:flex;flex-direction:column;gap:10px}.contacthint{font-size:.76rem;color:#b9c4b5;text-align:center;max-width:220px}.footer{padding:25px 0 35px;display:flex;justify-content:space-between;align-items:center;gap:15px;color:#697167;font-size:.85rem}.footer b{color:var(--ink)}.notice{display:none;margin-top:10px;background:#fff3cf;color:#5c4710;border-radius:12px;padding:12px;font-size:.9rem}.notice.show{display:block}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;padding:36px;gap:10px}.hero-visual{min-height:290px}.browser{max-width:360px}.float-note{left:3%}.grid3,.pricegrid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr;gap:3px}.cta{align-items:flex-start;flex-direction:column}.cta-actions{align-items:flex-start}.contacthint{text-align:left}}
+    @media(max-width:580px){.wrap{width:min(100% - 26px,1120px)}.nav{padding:14px 0}.navlinks{display:none}.hero{border-radius:23px;padding:28px 22px;min-height:0}.hero h1{font-size:3.05rem}.hero p{font-size:1rem}.hero-visual{min-height:270px}.browser{padding:11px}.mockhero{padding:16px;min-height:132px}.mocktitle{font-size:1.45rem}.float-note{bottom:-1px;font-size:.72rem;padding:10px 12px}section{padding:60px 0}.grid3,.pricegrid{grid-template-columns:1fr}.service{min-height:0}.pricecard p{min-height:0}.pricing{padding:20px}.trust{justify-content:flex-start}.footer{align-items:flex-start;flex-direction:column}.btn{padding:12px 15px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Ahmed Digital, accueil"><span class="brandmark">A.</span><span>Ahmed Digital</span></a>
+      <nav class="navlinks" aria-label="Navigation principale"><a href="#services">Services</a><a href="#methode">Méthode</a><a href="#tarifs">Tarifs</a></nav>
+      <a class="btn btn-small" href="#contact">Parlons de votre projet <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Sites web pour petites entreprises</div>
+          <h1 id="hero-title">Votre activité mérite <span>un beau site.</span></h1>
+          <p>J’aide les commerces, restaurants et indépendants à présenter leurs services en ligne avec un site clair, moderne et adapté au téléphone.</p>
+          <div class="hero-actions"><a class="btn" href="#contact">Créer mon site <span aria-hidden="true">→</span></a><a class="btn btn-outline" href="#services">Découvrir les services</a></div>
+        </div>
+        <div class="hero-visual" aria-label="Aperçu graphique d'un site web">
+          <div class="browser">
+            <div class="browserbar"><i></i><i></i><i></i></div>
+            <div class="mockhero"><div class="mocklabel">VOTRE COMMERCE, EN LIGNE</div><div class="mocktitle">Un site simple.<br>Un grand impact.</div><div class="mockcircle"></div></div>
+            <div class="mockrows"><div class="mockcard"><b>Design moderne</b><span>Une image soignée</span></div><div class="mockcard"><b>Mobile friendly</b><span>Sur tous les écrans</span></div></div>
+            <div class="mockfooter"><span>Prêt à commencer ?</span><strong>Contactez-nous ↗</strong></div>
+          </div>
+          <div class="float-note">✦ Pensé pour votre activité</div>
+        </div>
+      </section>
+
+      <div class="trust" aria-label="Points clés"><div class="trustitem"><span class="check">✓</span><span><strong>Adapté au mobile</strong><br>Navigation confortable</span></div><div class="trustitem"><span class="check">✓</span><span><strong>Design sur mesure</strong><br>Selon votre activité</span></div><div class="trustitem"><span class="check">✓</span><span><strong>Contact facile</strong><br>WhatsApp et téléphone</span></div></div>
+
+      <section id="services">
+        <div class="section-head"><div class="kicker">Ce que je propose</div><h2>Le nécessaire pour bien démarrer en ligne.</h2><p>Des solutions simples et pratiques pour présenter votre activité et faciliter le contact avec vos clients.</p></div>
+        <div class="grid3">
+          <article class="service"><div class="serviceicon" aria-hidden="true">✳</div><h3>Site vitrine</h3><p>Présentez votre entreprise, vos services, vos horaires et vos coordonnées dans un site professionnel.</p></article>
+          <article class="service"><div class="serviceicon" aria-hidden="true">▦</div><h3>Page de campagne</h3><p>Une page dédiée à une offre, un nouveau produit, un événement ou une campagne publicitaire.</p></article>
+          <article class="service"><div class="serviceicon" aria-hidden="true">↗</div><h3>Amélioration de site</h3><p>Une présentation plus claire, une meilleure expérience sur téléphone et des appels à l’action visibles.</p></article>
+        </div>
+      </section>
+
+      <section id="methode">
+        <div class="section-head"><div class="kicker">Comment ça marche</div><h2>Du premier message à la mise en ligne.</h2><p>Un processus clair, avec les besoins et le budget définis avant de commencer.</p></div>
+        <div class="steps"><article class="step"><div class="stepno">ÉTAPE 01</div><h3>On échange</h3><p>Vous m’expliquez votre activité, votre clientèle et les informations à afficher.</p></article><article class="step"><div class="stepno">ÉTAPE 02</div><h3>Je prépare la maquette</h3><p>Nous validons la structure, le style et les contenus avant la finalisation.</p></article><article class="step"><div class="stepno">ÉTAPE 03</div><h3>Vous validez</h3><p>Après les ajustements convenus, le site est livré et mis en ligne selon la solution choisie.</p></article></div>
+      </section>
+
+      <section id="tarifs">
+        <div class="pricing">
+          <div class="section-head"><div class="kicker">Tarifs indicatifs</div><h2>Une formule adaptée à votre besoin.</h2><p>Voici des prix de départ à ajuster selon le contenu, les fonctionnalités et le délai du projet.</p></div>
+          <div class="pricegrid">
+            <article class="pricecard"><div class="tag">Essentiel</div><h3>Page de présentation</h3><div class="price">500 DH <small>/ dès</small></div><p>Pour démarrer avec une présence en ligne simple.</p><ul><li>Une page responsive</li><li>Présentation et coordonnées</li><li>Bouton de contact</li><li>Une série de corrections convenue</li></ul><a class="btn btn-dark quote-btn" href="#contact" data-package="Essentiel">Demander un devis</a></article>
+            <article class="pricecard featured"><div class="tag">Le plus complet</div><h3>Site Business</h3><div class="price">1 200 DH <small>/ dès</small></div><p>Pour présenter plusieurs services avec plus de détails.</p><ul><li>Jusqu’à 4 sections ou pages simples</li><li>Design adapté à votre marque</li><li>Galerie ou liste de services</li><li>Contact et liens sociaux</li></ul><a class="btn quote-btn" href="#contact" data-package="Business">Demander un devis</a></article>
+            <article class="pricecard"><div class="tag">Sur mesure</div><h3>Projet spécifique</h3><div class="price">Sur devis</div><p>Pour les besoins qui demandent des fonctions particulières.</p><ul><li>Analyse de vos besoins</li><li>Fonctionnalités définies ensemble</li><li>Planning et budget convenus</li><li>Options d’évolution possibles</li></ul><a class="btn btn-dark quote-btn" href="#contact" data-package="Sur mesure">Discuter du projet</a></article>
+          </div>
+          <p class="fineprint">Prix affichés à titre indicatif. Le nom de domaine, l’hébergement payant, les outils tiers, la maintenance et les fonctionnalités non mentionnées peuvent entraîner des frais supplémentaires. Aucun travail ne commence sans accord sur le devis.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="cta">
+          <div><div class="eyebrow"><span class="dot"></span> Votre projet commence ici</div><h2>Parlons de votre prochaine idée.</h2><p>Envoyez quelques détails sur votre activité et le type de site que vous recherchez. Nous pourrons discuter des options et du budget.</p></div>
+          <div class="cta-actions"><button class="btn" id="whatsappBtn" type="button">Contacter sur WhatsApp <span aria-hidden="true">↗</span></button><a class="btn btn-outline" href="mailto:ahmtadraret@gmail.com?subject=Projet%20de%20site%20web%20-%20Ahmed%20Digital">Écrire par e-mail</a><div class="contacthint">Le premier échange sert à comprendre votre besoin, sans engagement.</div></div>
+        </div>
+        <div class="notice" id="numberNotice" role="status">Avant la publication, ajoute ton numéro WhatsApp dans le fichier <strong>index.html</strong> en remplaçant <code>2126XXXXXXXX</code> par ton numéro au format international, sans + ni espaces.</div>
+      </section>
+    </main>
+    <footer class="footer"><div class="brand"><span class="brandmark">A.</span><span>Ahmed Digital</span></div><div>Sites web simples pour les idées ambitieuses.</div><div>© <span id="year"></span> Ahmed Digital</div></footer>
+  </div>
+  <script>
+    // IMPORTANT : remplace cette valeur par ton numéro WhatsApp marocain au format international.
+    // Exemple de format : 2126XXXXXXXX (ne mets ni +, ni espaces, ni tirets).
+    const WHATSAPP_NUMBER = "2126XXXXXXXX";
+    const whatsappBtn = document.getElementById("whatsappBtn");
+    const numberNotice = document.getElementById("numberNotice");
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    function contactOnWhatsApp(packageName = "") {
+      if (!/^\d{10,15}$/.test(WHATSAPP_NUMBER) || WHATSAPP_NUMBER.includes("X")) {
+        numberNotice.classList.add("show");
+        numberNotice.scrollIntoView({behavior: "smooth", block: "center"});
+        return;
+      }
+      const prefix = packageName ? `Bonjour Ahmed Digital, je suis intéressé(e) par l’offre ${packageName}.` : "Bonjour Ahmed Digital, je voudrais discuter d’un projet de site web.";
+      const message = `${prefix} Pouvez-vous me renseigner sur le prix et les étapes ?`;
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+    }
+    document.querySelectorAll(".quote-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const packageName = button.dataset.package || "";
+        whatsappBtn.dataset.package = packageName;
+        whatsappBtn.textContent = `Demander le devis ${packageName} sur WhatsApp ↗`;
+      });
+    });
+    whatsappBtn.addEventListener("click", () => contactOnWhatsApp(whatsappBtn.dataset.package || ""));
+  </script>
+</body>
+</html>
